@@ -92,3 +92,8 @@ body {
 .bookmark {
   color: white;
 }
+
+.no-bookmark{
+  color:white;
+  text-align:center;
+}
