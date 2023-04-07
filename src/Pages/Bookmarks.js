@@ -7,7 +7,7 @@ function Bookmarks() {
 
   if(!items){
     return (
-      <h1>No Bookmarks</h1>;
+      <h1 className="no-bookmark">No Bookmarks</h1>;
     )
   }
   return (
