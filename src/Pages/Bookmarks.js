@@ -5,7 +5,13 @@ import { Link } from "react-router-dom";
 function Bookmarks() {
   const items = JSON.parse(localStorage.getItem("itemsArray")) || [];
 
+  if(!items){
+    return (
+      <h1>No Bookmarks</h1>;
+    )
+  }
   return (
+    
     <div>
       {items.map((item) => {
         console.log(item.content);
