@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #202142;
 }
 
 .App-logo {
@@ -35,4 +36,59 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+body {
+  background-color: #202142;
+}
+
+.container {
+  max-width: 768px;
+  margin: auto;
+  padding: 0 20px;
+  text-align: center;
+  background-color: orange;
+  border-radius: 15px;
+  color: white;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+.tag-label {
+  color: white;
+}
+.form_input {
+  min-width: 100px;
+  margin: 30px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.options {
+  font-size: 1rem;
+}
+
+.btn {
+  color: white;
+  background-color: rgb(200, 74, 43);
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 7px;
+}
+.btn:hover {
+  background-color: rgb(83, 24, 6);
+}
+
+.bookmark-btn {
+  background-color: orange;
+  border: none;
+  color: white;
+  font-size: large;
+  top: 10px;
+  right: 10px;
+}
+
+.bookmark {
+  color: white;
 }
